@@ -22,7 +22,4 @@ The repository is organized into two primary folders:
 ### Running the Notebooks
 
 Set up dependencies: Ensure you have all required libraries installed, especially opencv, pandas, torch, and ultralytics.
-Run Jupyter Notebooks: Open each folder and run the corresponding notebooks as needed.
-Training Notebooks: Train the models using labeled datasets. Customize parameters within the notebook if necessary.
-Application Notebooks: Test the trained models with real-time camera feed for classification (camera access required).
-Output: Results will display annotated frames in the application notebook and provide live detection outputs.
+
