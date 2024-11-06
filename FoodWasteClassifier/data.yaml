@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['0_beef', '100_beef', '100_bread', '100_fish', '100_nuts', '100_orange', '100_rice', '25_bread', '25_fish', '25_nuts', '25_orange', '25_rice', '50_beef', '50_bread', '50_fish', '50_nuts', '50_orange', '50_rice', '75_beef', '75_fish', '75_rice', 'empty']
+
+roboflow:
+  workspace: joe-oofog
+  project: meal-box-leftovers
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joe-oofog/meal-box-leftovers/dataset/7
